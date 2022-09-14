@@ -1,23 +1,54 @@
-# Repository Pengumpulan Tugas Praktikum Lab PP
+# Repositori Tugas Praktikum Pengantar Pemrograman 2022
 
-## Alur Pengumpulan Tugas ke Repositori Ini
-0. **Fork** Repositori ini.
-1. Pada hasil *fork* anda, Buat **Branch** dengan nama **NIM** anda.
-2. Pada *branch* **NIM** anda, buat direktori didalam direktori **NIM** anda dengan nama **Praktikum-n**.
- 
-3. Seluruh berkas **Tugas** pertemuan ke-_**n**_ disimpan pada direktori _**NIM/Praktikum-n**_.
-   > - Berkas tugas berupa  `.py` dimana *satu class satu file*.
-4. **Push** berkas tugas anda ke repositori hasil *fork* pada *branch* **NIM** anda.
-5. Buat **Pull Request** untuk **Merge** *branch* **NIM** dengan *branch* **nim** pada repositori ini.
-6. Tugas anda dinyatakan **diterima** jika **branch NIM** anda telah _**merged**_ dengan **branch nim** anda pada repositori ini.  
+## Alur pengumpulan tugas ke repositori ini
 
-## Bagaimana Cara Mengetahui Jika **Branch NIM** telah _**Merged**_ dengan Repositori ini ?
- - Anda dapat memantau repositori ini.
- - Atau tambahkan **remote** ke repositori ini sebagai **upstream** pada repositori lokal hasil *fork* anda.
- - Jika anda menambahkan *remote* pada hasil *fork*, lakukan **merge** pada _branch **master**_ anda dengan _branch **master upstream**_.
- - Untuk cara sinkronisasi hasil *fork* dengan *upstream*, silahkan baca [Configure a remote for a fork](https://help.github.com/en/articles/configuring-a-remote-for-a-fork) dan [Syncing a fork](https://help.github.com/en/articles/syncing-a-fork).
+1. **Fork** repositori ini
 
+2. **Clone** repositori hasil **fork** anda
 
-```diff
-! ### Bila Bingung dengan Cara di atas, Bisa Mengikuti Langkah pada File PDF Terlampir!
-```
+   ```sh
+
+   git clone https://github.com/YOUR_USERNAME/LABPP_2022_13.git
+
+   ```
+
+3. Setelah anda **clone**, masuk ke folder hasil **clone** tersebut lalu buat **branch** dengan nama **NIM** anda
+
+   ```sh
+
+   cd LABPP_2022_13
+   git branch NIM_ANDA
+   git checkout NIM_ANDA
+   git config user.name USERNAME_GITHUB
+   git config user.email EMAIL_GITHUB
+
+   ```
+
+4. Setelah anda pindah ke **branch** yang telah anda buat, buat sebuah folder dengan nama **NIM** anda
+5. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum n**, **n** = praktikum keberapa
+6. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**
+7. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
+
+   ```sh
+   git add .
+   # atau
+   git add "Praktikum n/NIM/FilePythonYangBerubahAtauDitambahkan.py"
+   git commit -m "pesan mengenai penambahan atau perubahan apa yang anda lakukan"
+
+   ```
+
+8. Lakukan asistensi, setelah asistensi dan tugas anda disetujui, **push** seluruh _file_ jawaban yang telah anda buat
+
+   ```sh
+
+   # pastikan proses commit telah selesai terhadap setiap file
+   git push origin NIM_ANDA
+
+   ```
+
+## Hal-hal yang harus diperhatikan
+
+- [x] Cara mengumpulkan tugas sesuai dengan aturan diatas.
+- [x] _**Satu Praktikum, Satu Folder**_.
+- [x] _**Satu Soal, Satu Class**_.
+- [x] _**Program Berjalan dengan Baik dan Benar Berdasarkan Ketentuan Tugas**_.
