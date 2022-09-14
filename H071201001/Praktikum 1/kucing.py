@@ -1,2 +1,1 @@
-halohalo
-
+print("Hai patrick")
