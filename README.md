@@ -4,7 +4,7 @@
 1. Buat akun GitHub (https://github.com/)
 2. Download Git (https://git-scm.com/)
 
-## Alur pengumpulan tugas ke repositori ini
+## Alur pengumpulan tugas ke repositori ini:
 
 1. **Fork** repositori ini
 
@@ -96,7 +96,7 @@
 10. Pilih menu **Pull request** dan lakukan **pull request** pada tugas praktikum anda.
 
 
-## Hal-hal yang harus diperhatikan
+## Hal-hal yang harus diperhatikan:
 
 - [x] Cara mengumpulkan tugas sesuai dengan aturan diatas.
 - [x] _**Satu Praktikum, Satu Folder**_.
