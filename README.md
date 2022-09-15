@@ -1,5 +1,9 @@
 # Repositori Tugas Praktikum Pengantar Pemrograman 2022
 
+## Requirements:
+1. Buat akun GitHub (https://github.com/)
+2. Download Git (https://git-scm.com/)
+
 ## Alur pengumpulan tugas ke repositori ini
 
 1. **Fork** repositori ini
@@ -61,7 +65,36 @@
 
    ```
    
-9. 
+   Jika sebelumnya anda belum pernah menghubungkan Git di komputer anda dengan akun GitHub anda, maka anda akan diminta untuk mengisi username dan password untuk
+   melakukan push ke repo GitHub anda.
+   ```sh
+
+   # username = username anda
+   # password = persocal access token anda
+
+   ```
+   
+   Cara membuat personal access token:
+   ```sh
+   
+   #1. Klik profile anda pada pojok kanan atas GitHub
+   #2. Pilih menu settings
+   #3. Scroll ke bagian bawah dan pilih menu Dveloper settings
+   #4. Pilih Prsonal access tokens
+   #5. Pilih Generate new tokes
+   #6. Tuliskan note untuk token anda (ex: Token for LABPP_2022_13)
+   #7. Atur waktu expiration token anda (sesuai keinginan anda)
+   #8. Pada select scope, ceklis box repo
+   #9. Klik generate new token
+   #10. Pastikan untuk meng-copy token anda dan menyimpannya, karena token hanya bisa diliat sekali (*Jika hilang, buat token baru)
+
+   ```
+   
+9. Masuk ke akun GitHub anda, dan buka repo yang telah anda **fork** dan **clone**. Lihat perubahan yang terjadi pada repo tersebut dan pastikan bahwa tugas yang
+   telah anda **push** sesuai dan berada pada repo tersebut.
+   
+10. Pilih menu **Pull request** dan lakukan **pull request** pada tugas praktikum anda.
+
 
 ## Hal-hal yang harus diperhatikan
 
