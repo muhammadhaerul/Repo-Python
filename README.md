@@ -30,7 +30,15 @@
 
    ```
 
-4. Buat sebuah folder dengan nama **NIM** anda dan masuk ke folder tersebut.
+4. Buat **branch** baru dengan nama *NIM**, dan lakukan **checkout untuk berpindah dari **main branch** ke **branch** tersebut.
+   ```sh
+   
+   git branch NIM_ANDA
+   git checkout NIM_ANDA
+   
+   ```
+
+5. Buat sebuah folder dengan nama **NIM** anda dan masuk ke folder tersebut.
    ```sh
 
    mkdir NIM_ANDA
@@ -39,17 +47,16 @@
    ```
 
 
-5. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum ke-berapa.
+6. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum ke-berapa. 
    ```sh
 
    mkdir "Praktikum-n"
    cd "Praktikum-n"
 
    ```
+   Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum-1n**.
 
-7. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**.
-
-9. Tambahkan _file_ tugas-tugas praktikum anda, liat perubahan yang terjadi, dan lakukan proses **commit** dengan pesan yang deskriptif.
+7. Tambahkan _file_ tugas-tugas praktikum anda, liat perubahan yang terjadi, dan lakukan proses **commit** dengan pesan yang deskriptif.
 
    ```sh
    
