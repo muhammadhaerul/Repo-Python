@@ -12,7 +12,7 @@
 
    ```sh
 
-   git clone https://github.com/YOUR_USERNAME/LABPP_2022_13.git
+   git clone https://github.com/your_username/LABPP_2022_13.git
 
    ```
 
