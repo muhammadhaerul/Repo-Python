@@ -47,24 +47,32 @@
 
    ```
 
-7. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**
+7. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**.
 
-9. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
+9. Tambahkan _file_ tugas-tugas praktikum anda, liat perubahan yang terjadi, dan lakukan proses **commit** dengan pesan yang deskriptif.
 
    ```sh
    
+   #tambahkan file
    git add . #perintah ini memilih seluruh file sekaligus
-   # atau
+   #atau
    git add "File_python_yang_berubah_atau_ditambahkan.py" #perintah ini memilih file tertentu
+   
+   #liat perubahan
+   git status
+   
+   #lakukan commit
    git commit -m "pesan mengenai penambahan atau perubahan apa yang anda lakukan"
    
    ```
 
-8. Setelah asistensi dan tugas anda disetujui, **push** seluruh _file_ jawaban yang telah anda buat
+8. Setelah asistensi dan tugas praktikum anda disetujui oleh asisten, **push** seluruh _file_ jawaban yang telah anda buat.
 
    ```sh
 
-   # pastikan proses commit telah selesai terhadap setiap file
+   #pastikan proses commit telah selesai terhadap setiap file
+   
+   #push tugas
    git push
 
    ```
