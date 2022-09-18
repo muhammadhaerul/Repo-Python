@@ -41,7 +41,7 @@
    ```sh
 
    mkdir "Praktikum-n"
-   cd "Praktikum n"
+   cd "Praktikum-n"
 
    ```
 
