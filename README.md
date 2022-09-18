@@ -30,7 +30,7 @@
 
    ```
 
-4. Buat **branch** baru dengan nama *NIM**, dan lakukan **checkout untuk berpindah dari **main branch** ke **branch** tersebut.
+4. Buat **branch** baru dengan nama **NIM**, dan lakukan **checkout** untuk berpindah dari **main branch** ke **branch** tersebut.
    ```sh
    
    git branch NIM_ANDA
