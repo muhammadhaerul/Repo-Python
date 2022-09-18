@@ -3,12 +3,18 @@
 ## Requirements:
 1. Buat akun GitHub (https://github.com/)
 2. Download Git (https://git-scm.com/)
+3. Setelah men-download Git, kembali ke tampilan dekstop anda dan buka Git Bash
+4. Lakukan config pada Git Bash.
+   ```sh
+   git config user.name USERNAME_GITHUB
+   git config user.email EMAIL_GITHUB
+   ```
 
 ## Alur pengumpulan tugas ke repositori ini:
 
-1. **Fork** repositori ini
+1.  **Fork** repositori ini menggunakan akun GitHub anda
 
-2. **Clone** repositori hasil **fork** anda
+2. Buka Git Bash dan **Clone** repositori hasil **fork** anda
 
    ```sh
 
@@ -16,19 +22,17 @@
 
    ```
 
-3. Setelah anda **clone**, masuk ke folder hasil **clone** tersebut lalu buat **branch** dengan nama **NIM** anda
+3. Setelah anda **clone**, masuk ke folder hasil **clone** tersebut.
 
    ```sh
-
+   
    cd LABPP_2022_5
    git branch NIM_ANDA
    git checkout NIM_ANDA
-   git config user.name USERNAME_GITHUB
-   git config user.email EMAIL_GITHUB
 
    ```
 
-4. Setelah anda pindah ke **branch** yang telah anda buat, buat sebuah folder dengan nama **NIM** anda dan masuk ke folder tersebut.
+4. Buat sebuah folder dengan nama **NIM** anda dan masuk ke folder tersebut.
    ```sh
 
    mkdir NIM_ANDA
@@ -37,7 +41,7 @@
    ```
 
 
-5. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum keberapa
+5. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum ke-berapa.
    ```sh
 
    mkdir "Praktikum-n"
@@ -46,12 +50,14 @@
    ```
 
 7. Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum n**
-8. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
+
+9. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
 
    ```sh
+   
    git add . #perintah ini memilih seluruh file sekaligus
    # atau
-   git add "Praktikum n/NIM/FilePythonYangBerubahAtauDitambahkan.py" #perintah ini memilih file tertentu
+   git add "File_python_yang_berubah_atau_ditambahkan.py" #perintah ini memilih file tertentu
    git commit -m "pesan mengenai penambahan atau perubahan apa yang anda lakukan"
    
    ```
@@ -61,7 +67,7 @@
    ```sh
 
    # pastikan proses commit telah selesai terhadap setiap file
-   git push origin NIM_ANDA
+   git push
 
    ```
    
