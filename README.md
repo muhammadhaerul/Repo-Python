@@ -3,12 +3,9 @@
 ## Requirements:
 1. Buat akun GitHub (https://github.com/)
 2. Download Git (https://git-scm.com/)
-3. Setelah men-download Git, kembali ke tampilan dekstop anda dan buka Git Bash
+
 4. Lakukan config pada Git Bash.
-   ```sh
-   git config user.name USERNAME_GITHUB
-   git config user.email EMAIL_GITHUB
-   ```
+
 
 ## Alur pengumpulan tugas ke repositori ini:
 
@@ -18,17 +15,18 @@
 
    ```sh
 
-   git clone https://github.com/your_username/LABPP_2022_13.git
+   git clone https://github.com/YOUR_USERNAME/LABPP_2022_13.git
 
    ```
 
-3. Setelah anda **clone**, masuk ke folder hasil **clone** tersebut.
+3. Setelah anda **clone**, masuk ke folder hasil **clone** tersebut dan lakukan config.
 
    ```sh
    
    cd LABPP_2022_5
-   git branch NIM_ANDA
-   git checkout NIM_ANDA
+
+   git config user.name USERNAME_GITHUB
+   git config user.email EMAIL_GITHUB
 
    ```
 
