@@ -74,10 +74,9 @@
    ```
 
 8. Setelah asistensi dan tugas praktikum anda disetujui oleh asisten, **push** seluruh _file_ jawaban yang telah anda buat.
-
+   Pastikan proses commit telah selesai terhadap setiap file sebelum melakukan **push**
+   
    ```sh
-
-   #pastikan proses commit telah selesai terhadap setiap file
    
    #push tugas
    git push
