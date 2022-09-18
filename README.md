@@ -11,7 +11,7 @@
 
 1.  **Fork** repositori ini menggunakan akun GitHub anda
 
-2. Buka Git Bash dan **Clone** repositori hasil **fork** anda
+2. Buka Git Bash dan **clone** repositori hasil **fork** anda
 
    ```sh
 
