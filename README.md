@@ -4,8 +4,6 @@
 1. Buat akun GitHub (https://github.com/)
 2. Download Git (https://git-scm.com/)
 
-4. Lakukan config pada Git Bash.
-
 
 ## Alur pengumpulan tugas ke repositori ini:
 
@@ -115,7 +113,6 @@
 
 
 ## Hal-hal yang harus diperhatikan:
-
 - [x] Cara mengumpulkan tugas sesuai dengan aturan diatas.
 - [x] _**Satu Praktikum, Satu Folder**_.
 - [x] _**Satu Soal, Satu File**_.
