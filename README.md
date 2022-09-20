@@ -52,7 +52,7 @@
    cd "Praktikum-n"
 
    ```
-   Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum-1n**.
+   Semua _file_ untuk tugas praktikum ke-**n**, disimpan kedalam folder **Praktikum-n** dengan nama _file_ **Soal01.py**, **Soal02.py**, dst.
 
 7. Tambahkan _file_ tugas-tugas praktikum anda, liat perubahan yang terjadi, dan lakukan proses **commit** dengan pesan yang deskriptif.
 
