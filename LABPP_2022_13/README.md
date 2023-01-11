@@ -1,4 +1,4 @@
-# Repositori Tugas Praktikum Pengantar Pemrograman 2022
+# Repositori Tugas Praktikum Lab Pengantar Pemrograman 2022
 
 ## Requirements:
 1. Buat akun GitHub (https://github.com/)
