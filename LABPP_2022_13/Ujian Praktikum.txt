@@ -1,0 +1,13 @@
+Paket A:
+https://www.hackerrank.com/ujian-praktikum-pp-sesi-2-2022-a
+
+Paket B:
+https://www.hackerrank.com/ujian-praktikum-pp-sesi-2-2022-b
+
+Waktu Ujian: 120 Menit
+
+Kerjakan soal sebanyak-banyaknya untuk mengumpulkan poin
+Languange: Python3
+n = input()
+Tidak ada batasan submit
+
